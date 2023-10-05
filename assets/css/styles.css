@@ -41,7 +41,7 @@ header {
   align-items: center;
 }
 
-section {
+#main-content {
   background-image: url("../img/lientran.jpg");
   background-size: cover;
   background-position: center;
