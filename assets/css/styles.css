@@ -53,9 +53,11 @@ section {
   margin: 0;
 }
 #main-content .container {
-  padding-top: 100px;
+  padding-top: 20vh;
+  padding-left: 10vw;
+  margin-left: 0px;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 .container {
   font-family: "Raleway", sans-serif;
