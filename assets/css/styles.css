@@ -1,9 +1,10 @@
-header {
+/* header {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-}
+  background-color: cadetblue; 
+} */
 .navbar .navbar-brand {
   padding-left: 20px;
   color: #6f6f6f;
@@ -90,5 +91,15 @@ header {
   background: #34b7a7;
 }
 footer {
+  text-align: center;
+}
+/* ---------------------
+ABOUT PAGE
+--------------------- */
+#about-content h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container {
   text-align: center;
 }
