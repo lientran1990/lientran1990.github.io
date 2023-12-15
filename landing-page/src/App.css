@@ -1,7 +1,7 @@
-.App {
+/* .App {
   text-align: center;
   background-color: white;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -31,7 +31,33 @@
     transform: rotate(360deg);
   }
 }
-
-.Nav {
-  justify-content: right;
+/* 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+} */
+.text-on-image {
+  position: absolute;
+  margin-top: 30vh;
+  color: #61dafb;
+}
+/* 
+header-image {
+  height: 100%;
+  width: 100%;
+} */
+img {
+  background-image: url("https://images.freeimages.com/images/large-previews/493/sunset-1359742.jpg");
+  /* height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
