@@ -1,22 +1,7 @@
-/* .App {
-  text-align: center;
-  background-color: white;
-} */
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  /* min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin); */
-  color: rgba(71, 66, 219, 0.705);
 }
 
 .App-link {
@@ -31,30 +16,16 @@
     transform: rotate(360deg);
   }
 }
-/* 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-} */
+
 .text-on-image {
   position: absolute;
-  /* margin-top: 20vh; */
-  color: #61dafb;
+  color: black;
+  margin-left: 90px;
 }
-/* 
-header-image {
-  height: 100%;
-  width: 100%;
-} */
+
 img {
   background-image: url("https://images.freeimages.com/images/large-previews/493/sunset-1359742.jpg");
-  /* height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0; */
+
   position: absolute;
   top: 0;
   left: 0;
@@ -65,12 +36,16 @@ header,
 p {
   font-size: 30px;
 }
-.btn {
-}
 
-.content {
+.btn-container {
   position: absolute;
   top: 200px;
   left: 0px;
-  display: block;
+  display: flex;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.me-auto {
+  text-align: center;
+  margin: auto;
 }

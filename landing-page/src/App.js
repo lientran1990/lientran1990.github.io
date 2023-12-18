@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import LNavbar from "./Navbar";
 import FluidExample from "./Image";
 import ButtonComponent from "./Button";
+import Button from "react-bootstrap/esm/Button";
 
 function Title() {
   useEffect(() => {
@@ -23,8 +24,9 @@ function App() {
         </header>
         <p>I'm a fresher Front end Dev</p>
       </div>
-      <div className="content">
+      <div className="btn-container">
         <ButtonComponent children={"Hire me"} />
+        &nbsp;&nbsp;&nbsp;
         <ButtonComponent children={"See my work"} />
       </div>
     </div>

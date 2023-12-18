@@ -4,9 +4,7 @@ import Button from "react-bootstrap/Button";
 function ButtonComponent(props) {
   return (
     <div>
-      <Button className="btn" variant="primary">
-        {props.children}
-      </Button>{" "}
+      <Button variant="warning">{props.children}</Button>{" "}
     </div>
   );
 }
