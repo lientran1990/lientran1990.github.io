@@ -39,7 +39,7 @@
 } */
 .text-on-image {
   position: absolute;
-  margin-top: 30vh;
+  /* margin-top: 20vh; */
   color: #61dafb;
 }
 /* 
@@ -55,9 +55,22 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0; */
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
+}
+header,
+p {
+  font-size: 30px;
+}
+.btn {
+}
+
+.content {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  display: block;
 }

@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { IconName } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaHeart } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
