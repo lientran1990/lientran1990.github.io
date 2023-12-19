@@ -1,5 +1,3 @@
-import Image from "react-bootstrap/Image";
-
 function FluidExample() {
   return (
     <div className="container">

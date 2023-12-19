@@ -7,6 +7,7 @@ import { FaFacebook, FaHeart } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ButtonComponent from "./Button";
+import CV from "../src/assets/CV.pdf";
 
 function LNavbar() {
   return (
@@ -27,8 +28,10 @@ function LNavbar() {
               Portfolio
             </Nav.Link>
             &nbsp;&nbsp;&nbsp;
-            <ButtonComponent children={"Download CV"} />
-            <FontAwesomeIcon icon="fa-brands fa-facebook" />
+            <a href={CV} download="LienTran-CV" target="_blank">
+              <ButtonComponent children={"Download CV"} />
+              {/* <Button className={classes.navLink}>My Example Doc</Button> */}
+            </a>
             <div className="social-link">
               <a
                 href="https://www.facebook.com/lien.tranthi.3"

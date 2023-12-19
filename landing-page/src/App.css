@@ -22,6 +22,7 @@
   color: black;
   margin-left: 90px;
   top: 90px;
+
 }
 
 img {
@@ -55,4 +56,7 @@ p {
 } */
 .text-on-image span {
   color: #61dafb;
+}
+* {
+  font-family: "Playfair Display", serif;
 }
