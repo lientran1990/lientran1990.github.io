@@ -20,9 +20,12 @@ function App() {
         <header>
           Hello,
           <br />
-          <strong> I'm Lien Tran. Wellcome to my landing page </strong>
+          <strong>
+            {" "}
+            I'm <span>Lien Tran.</span>{" "}
+          </strong>
         </header>
-        <p>I'm a fresher Front end Dev</p>
+        <p>Fresher Front-end Developer</p>
       </div>
       <div className="btn-container">
         <ButtonComponent children={"Hire me"} />

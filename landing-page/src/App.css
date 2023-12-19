@@ -21,6 +21,7 @@
   position: absolute;
   color: black;
   margin-left: 90px;
+  top: 90px;
 }
 
 img {
@@ -39,7 +40,7 @@ p {
 
 .btn-container {
   position: absolute;
-  top: 200px;
+  top: 270px;
   left: 0px;
   display: flex;
   margin-left: 90px;
@@ -48,4 +49,10 @@ p {
 .me-auto {
   text-align: center;
   margin: auto;
+}
+/* .social-link {
+  position: absolute;
+} */
+.text-on-image span {
+  color: #61dafb;
 }

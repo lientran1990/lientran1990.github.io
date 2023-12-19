@@ -16,24 +16,28 @@ function LNavbar() {
           <Navbar.Brand href="#home">Lien Tran</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#About me">About me</Nav.Link>&nbsp;&nbsp;&nbsp;
-            <Nav.Link href="https://lientran1990.github.io/resumes/">
+            <Nav.Link
+              href="https://lientran1990.github.io/resumes/"
+              target="blank"
+            >
               Resume
             </Nav.Link>
             &nbsp;&nbsp;&nbsp;
             <Nav.Link href="https://lientran1990.github.io/book-store/">
-              Book Store
+              Portfolio
             </Nav.Link>
             &nbsp;&nbsp;&nbsp;
             <ButtonComponent children={"Download CV"} />
+            <FontAwesomeIcon icon="fa-brands fa-facebook" />
+            <div className="social-link">
+              <a
+                href="https://www.facebook.com/lien.tranthi.3"
+                className="facebook"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+            </div>
           </Nav>
-          <FaFacebook
-            style={{ marginRight: "10px" }}
-            href="https://www.facebook.com/lien.tranthi.3"
-            target="blank"
-          />
-
-          <FontAwesomeIcon icon="fa-brands fa-facebook" />
-          <FaLinkedin />
         </Container>
       </Navbar>
     </>
