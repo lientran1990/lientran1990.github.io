@@ -9,42 +9,34 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ButtonComponent from "./Button";
 import CV from "../src/assets/CV.pdf";
 
-function LNavbar() {
+function NavBar() {
   return (
     <>
-      <Navbar data-bs-theme="light">
-        <Container style={{ fontSize: 20 }}>
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container>
           <Navbar.Brand href="#home">Lien Tran</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#About me">About me</Nav.Link>&nbsp;&nbsp;&nbsp;
-            <Nav.Link
-              href="https://lientran1990.github.io/resumes/"
-              target="blank"
-            >
-              Resume
-            </Nav.Link>
-            &nbsp;&nbsp;&nbsp;
-            <Nav.Link href="https://lientran1990.github.io/book-store/">
-              Portfolio
-            </Nav.Link>
-            &nbsp;&nbsp;&nbsp;
-            <a href={CV} download="LienTran-CV" target="_blank">
-              <ButtonComponent children={"Download CV"} />
-              {/* <Button className={classes.navLink}>My Example Doc</Button> */}
-            </a>
-            <div className="social-link">
-              <a
-                href="https://www.facebook.com/lien.tranthi.3"
-                className="facebook"
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#About me">About me</Nav.Link>
+              <Nav.Link
+                href="https://lientran1990.github.io/resumes/"
+                target="blank"
               >
-                <i class="bi bi-facebook"></i>
+                Resume
+              </Nav.Link>
+              <Nav.Link href="https://lientran1990.github.io/book-store/">
+                Portfolio
+              </Nav.Link>
+              <a href={CV} download="LienTran-CV" target="_blank">
+                <ButtonComponent children={"Download CV"} />
               </a>
-            </div>
-          </Nav>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
   );
 }
 
-export default LNavbar;
+export default NavBar;

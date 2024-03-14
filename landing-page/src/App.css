@@ -1,3 +1,11 @@
+html,
+body,
+#root,
+.App,
+#App > div {
+  height: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -5,7 +13,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #7b66ff;
 }
 
 @keyframes App-logo-spin {
@@ -16,47 +24,46 @@
     transform: rotate(360deg);
   }
 }
+.App img {
+  /* justify-content: center; */
+  float: right;
+}
+
+.content-container {
+  margin-top: 5%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 .text-on-image {
   position: absolute;
   color: black;
   margin-left: 90px;
   top: 90px;
-
 }
 
-img {
-  background-image: url("https://images.freeimages.com/images/large-previews/493/sunset-1359742.jpg");
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
 header,
 p {
   font-size: 30px;
 }
 
 .btn-container {
-  position: absolute;
-  top: 270px;
-  left: 0px;
   display: flex;
-  margin-left: 90px;
-  margin-top: 20px;
+  flex-direction: row;
+  gap: 20px;
 }
 .me-auto {
   text-align: center;
   margin: auto;
 }
-/* .social-link {
-  position: absolute;
-} */
-.text-on-image span {
-  color: #61dafb;
+
+span {
+  color: #7b66ff;
 }
+
 * {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: Poppins, sans-serif;
 }
