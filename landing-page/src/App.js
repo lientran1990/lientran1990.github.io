@@ -19,7 +19,6 @@ function App() {
   return (
     <div className="App">
       <img src={Star} height="100%" />
-
       <Navbar />
 
       <div className="content-container">
@@ -39,7 +38,7 @@ function App() {
         <div className="btn-container">
           <a href="https://www.facebook.com/lien.tranthi.3" target="blank">
             <svg
-              fill="#7b66ff"
+              fill="#44CCE1"
               xmlns="http://www.w3.org/2000/svg"
               width="24px"
               height="24px"
@@ -53,7 +52,7 @@ function App() {
             target="blank"
           >
             <svg
-              fill="#7b66ff"
+              fill="#44CCE1"
               width="24px"
               height="24px"
               xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +63,7 @@ function App() {
           </a>
           <a href="https://github.com/lientran1990" target="blank">
             <svg
-              fill="#7b66ff"
+              fill="#44CCE1"
               width="24px"
               height="24px"
               xmlns="http://www.w3.org/2000/svg"

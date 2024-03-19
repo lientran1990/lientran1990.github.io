@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 
 function ButtonComponent(props) {
   return (
     <div>
-      <Button style={{ backgroundColor: "#7b66ff" }}>{props.children}</Button>
+      <button className="btn-component" type="button">
+        {props.children}
+      </button>
+
+      {/* <Button className="btn-primary">{props.children}</Button> */}
     </div>
   );
 }

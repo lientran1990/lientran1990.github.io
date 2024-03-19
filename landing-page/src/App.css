@@ -5,7 +5,6 @@ body,
 #App > div {
   height: 100%;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -25,8 +24,11 @@ body,
   }
 }
 .App img {
-  /* justify-content: center; */
+  justify-content: center;
   float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .content-container {
@@ -36,12 +38,10 @@ body,
   flex-direction: column;
   gap: 20px;
 }
-
-.text-on-image {
-  position: absolute;
-  color: black;
-  margin-left: 90px;
-  top: 90px;
+.prosto-one-regular {
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header,
@@ -60,10 +60,36 @@ p {
 }
 
 span {
-  color: #7b66ff;
+  color: #44cce1;
+}
+Nav.Link {
+  font-size: 48px;
 }
 
-* {
-  /* font-family: "Playfair Display", serif; */
-  font-family: Poppins, sans-serif;
+/* .test {
+  color: transparent !important;
+} */
+.bg-body-tertiary {
+  --bs-bg-opacity: 0 !important;
+}
+
+.navBarLink {
+  margin-right: 30px;
+}
+.btn-component {
+  color: #fff;
+  background-color: #ff9559;
+  border: none;
+  border-radius: 10px;
+  width: auto;
+  height: 45px;
+}
+
+.btn-component1 {
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  width: auto;
+  height: 45px;
 }
