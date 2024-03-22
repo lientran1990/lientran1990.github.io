@@ -4,11 +4,9 @@ import Button from "react-bootstrap/Button";
 function ButtonComponent(props) {
   return (
     <div>
-      <button className="btn-component" type="button">
+      <button className={props.className} type="button">
         {props.children}
       </button>
-
-      {/* <Button className="btn-primary">{props.children}</Button> */}
     </div>
   );
 }

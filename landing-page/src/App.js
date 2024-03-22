@@ -9,15 +9,13 @@ import Star from "../src/assets/Star.png";
 import "@fortawesome/fontawesome-free/css/all.css";
 import { faFacebook } from "@fortawesome/free-solid-svg-icons";
 
-function Title() {
-  useEffect(() => {
-    document.title = "My Landing Page Title";
-  }, []);
-}
-
 function App() {
+  const title = "Lien Tran webpage";
   return (
     <div className="App">
+      <title>{title}</title>
+      <title>Lien Tran webpage</title>
+
       <img src={Star} height="100%" />
       <Navbar />
 
@@ -31,8 +29,8 @@ function App() {
         </header>
         <p>Fresher Front-end Developer</p>
         <div className="btn-container">
-          <ButtonComponent children={"Hire me"} />
-          <ButtonComponent children={"See my work"} />
+          <ButtonComponent className="btn-main" children={"Hire me"} />
+          <ButtonComponent className="btn-main" children={"See my work"} />
         </div>
 
         <div className="btn-container">

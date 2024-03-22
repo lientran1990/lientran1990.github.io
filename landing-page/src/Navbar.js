@@ -38,7 +38,10 @@ function NavBar() {
                 Portfolio
               </Nav.Link>
               <a href={CV} download="LienTran-CV" target="_blank">
-                <ButtonComponent  children={"Download CV"} />
+                <ButtonComponent
+                  className="btn-nav"
+                  children={"Download CV"}
+                />
               </a>
             </Nav>
           </Navbar.Collapse>

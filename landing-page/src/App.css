@@ -37,6 +37,7 @@ body,
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: "Prosto One", sans-serif;
 }
 .prosto-one-regular {
   font-family: "Prosto One", sans-serif;
@@ -59,9 +60,9 @@ p {
   margin: auto;
 }
 
-span {
+/* span {
   color: #44cce1;
-}
+} */
 Nav.Link {
   font-size: 48px;
 }
@@ -82,14 +83,23 @@ Nav.Link {
   border: none;
   border-radius: 10px;
   width: auto;
-  height: 45px;
+  /* height: 25px; */
 }
 
-.btn-component1 {
+.btn-nav {
   color: #fff;
-  background-color: green;
+  background-color: #44cce1;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   width: auto;
-  height: 45px;
+  height: 35px;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: #ff9559;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  height: 35px;
 }
