@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d out -t true --nojekyll --cname lientran1990.github.io",
     "lint": "next lint"
   },
   "dependencies": {
