@@ -23,12 +23,20 @@ body,
     transform: rotate(360deg);
   }
 }
-.App img {
+@media (max-width: 767px) {
+  .bg-image {
+    display: none;
+  }
+}
+.App .bg-image {
   justify-content: center;
   float: right;
   position: absolute;
   top: 0;
   right: 0;
+  width: auto;
+  height: 100%;
+  z-index: -1;
 }
 
 .content-container {
