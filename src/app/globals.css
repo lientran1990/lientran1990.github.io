@@ -111,3 +111,18 @@ Nav.Link {
   width: auto;
   height: 35px;
 }
+.card-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe3bf;
+  width: fit-content;
+  border-radius: 8px;
+  margin: 2rem;
+}
+div img {
+  border-radius: 8px;
+}
+.card-content img,
+p {
+  padding: 10px;
+}
